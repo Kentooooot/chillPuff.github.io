@@ -36,10 +36,11 @@ body {
 }
 P {
     margin-top: -17px;
+    text-align: center;
 }
 @font-face {
     font-family: 'Bubblegum';
-    src: url('../final_Website/images/RioGrande-Bold.ttf.ttf') format('truetype');
+    src: url('RioGrande-Bold.ttf.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -47,15 +48,9 @@ P {
     font-family: 'Bubblegum', sans-serif; 
     font-size: 130px; 
     color: white; 
-}
-.chillpuff {
-    height: 180px; 
     text-align: center;
-    padding: 10px 0;
-    box-sizing: border-box;
-    margin-top: 20px;
-    color: white;
 }
+
 .image-container {
     margin-top: 2%;
     text-align: center;
