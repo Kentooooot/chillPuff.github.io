@@ -22,17 +22,31 @@
             background-image: url("background2.jpg");
             background-size : cover;
         }
-
+        @font-face {
+            font-family: 'Bubblegum';
+            src: url('RioGrande-Bold.ttf.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+        .chill-puff {
+            font-family: 'Bubblegum', sans-serif; 
+            font-size: 130px; 
+            color: white; 
+        }
+        .chillpuff {
+            height: 180px; 
+            text-align: center;
+            padding: 10px 0;
+            box-sizing: border-box;
+            margin-top: 20px;
+            color: white;
+        }
         .content {
             flex: 1;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: flex-start; 
-        }
-
-        .chill-puff {
-            margin-top: 10px; 
         }
 
         .square-border {
